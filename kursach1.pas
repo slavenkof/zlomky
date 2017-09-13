@@ -19,7 +19,7 @@ program fractions;
 		'num' for numbers
 		'/', '*', '+', '-' for operations
 	3. 'height', 'width' - the height and the width of the expression, which is represented by this node (including the child nodes) measured in number of characters, that is needed to print the expression.
-	4. 'x0', 'y0' - the initial positions, from which the expression represented by this node (including the child nodes) should be printed.
+	4. 'x0', 'y0' - the initial positions, from which the expression represented by this node should be printed.
 	Note: it is assumed, that the x-axis goes from the left to the right side of the screen; y-axis goes from the bottom of the screen to the top.
 	5. 'left', 'right' - child nodes of the node. For leafs it is assumed that these values are equal to 'nil'.
 	Note: considering the fact that in this particular programme unary operators are prohibited, each node either is a leaf, or have both left and right child nodes.
